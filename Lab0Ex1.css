@@ -1,0 +1,90 @@
+body{
+    padding-top: 70px;
+    display: auto;
+    width: 1000px;
+    margin: 0 auto;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border : 1px solid black;
+    width: 100%;
+    padding: 50px;
+}
+.topname{
+    border-top: 3px solid black;
+    padding-top: 10px;
+    width: 80%;
+}
+.green-text{
+    margin: 0;
+    color: green;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.contact p{
+    margin: 0;
+    padding: 1px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.skills{
+    padding-bottom: 10px;    
+}
+.big-blue{
+    color: rgb(122, 211, 233);
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+.education p{
+    margin: 0;
+    padding: 2px 0;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+.experience li{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.experience ul{
+    margin: 0;
+    padding: 10px 0 0 20px;
+}   
+.experience p{
+    margin: 0;
+    padding: 2px 0;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.experience .skill{
+    padding-top : 10px;
+}
+.seperator{
+    margin: 10px 0;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+    text-decoration: none;
+}
