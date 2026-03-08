@@ -162,6 +162,8 @@ main h1 {
 }
 
 .menu-image {
+    width: 300px;
+    min-width: 300px;
     height: 200px;
 }
 
@@ -228,4 +230,98 @@ main h1 {
     border-radius: 4px;
     font-size: 14px;
     font-weight: bold;
+}
+
+.section-intro {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.section-intro p {
+    margin: 0;
+    line-height: 1.7;
+}
+
+.info-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.info-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.info-card h2 {
+    margin-top: 0;
+}
+
+.contact-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.contact-card h2 {
+    margin-top: 0;
+}
+
+.hours-list {
+    margin: 0;
+    padding-left: 18px;
+    line-height: 1.8;
+}
+
+.job-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.job-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.job-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.job-head h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.job-tag {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.apply-note {
+    margin-top: 20px;
+    background-color: #fcf0d4;
+    border-left: 4px solid orange;
+    padding: 12px 16px;
+    border-radius: 4px;
 }
